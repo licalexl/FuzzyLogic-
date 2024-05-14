@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    public Transform target; // El objetivo que la cámara seguirá (tu personaje)
-    public float smoothSpeed = 0.125f; // La velocidad de desplazamiento de la cámara
-    public Vector3 offset; // El desplazamiento de la cámara respecto al personaje
+    public Transform target; 
+    public float smoothSpeed = 0.125f; 
+    public Vector3 offset; 
 
     void FixedUpdate()
     {
